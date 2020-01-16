@@ -6,7 +6,7 @@ class User(object):
         email = email
 
     def __str__(self):
-        out_str = 'Personal Name: ' + self.__first_name + ' ' + self.__last_name + '\n' + 'Email: ' + self.__email + '\n' + 'Account Type: ' + self.__role
+        out_str = 'Personal Name: ' + self.first_name + ' ' + self.last_name + '\n' + 'Email: ' + self.email + '\n'
         return out_str
 
 
